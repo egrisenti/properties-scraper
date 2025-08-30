@@ -9,7 +9,7 @@ class PropertiesspiderSpider(scrapy.Spider):
 
     # custom counter
     page_count = 0
-    max_pages = 330
+    max_pages = 50
 
     def parse(self, response):
 
